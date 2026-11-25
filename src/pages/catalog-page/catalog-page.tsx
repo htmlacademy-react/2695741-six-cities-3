@@ -1,4 +1,4 @@
-import RentCard from '../../components/RentCard/rent-card';
+import RentCard from '../../components/rent-card/rent-card';
 
 type CatalogPageProps = {
   offerCount: number;
@@ -97,42 +97,42 @@ function CatalogPage({ offerCount }: CatalogPageProps) {
               <div className="cities__places-list places__list tabs__content">
                 <RentCard
                   title="Beautiful & luxurious apartment at great location"
-                  image="img/apartment-01.jpg"
+                  previewImage="img/apartment-01.jpg"
                   price={120}
                   type="Apartment"
                   rating={4}
-                  premium
+                  isPremium
                 />
                 <RentCard
                   title="Wood and stone place"
-                  image="img/room.jpg"
+                  previewImage="img/room.jpg"
                   price={80}
                   type="Room"
                   rating={4}
-                  saved
+                  isFavorite
                 />
                 <RentCard
                   title="Canal View Prinsengracht"
-                  image="img/apartment-02.jpg"
+                  previewImage="img/apartment-02.jpg"
                   price={132}
                   type="Apartment"
                   rating={4}
                 />
                 <RentCard
                   title="Nice, cozy, warm big bed apartment"
-                  image="img/apartment-03.jpg"
+                  previewImage="img/apartment-03.jpg"
                   price={180}
                   type="Apartment"
                   rating={5}
-                  premium
+                  isPremium
                 />
                 <RentCard
                   title="Wood and stone place"
-                  image="img/room.jpg"
+                  previewImage="img/room.jpg"
                   price={80}
                   type="Room"
                   rating={4}
-                  saved
+                  isFavorite
                 />
               </div>
             </section>

@@ -1,4 +1,4 @@
-import CatalogPage from '../../pages/CatalogPage/catalog-page';
+import CatalogPage from '../../pages/catalog-page/catalog-page';
 
 type AppProps = {
   offerCount: number;
